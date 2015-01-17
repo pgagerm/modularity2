@@ -1,0 +1,27 @@
+/* ADD YOUR STYLES HERE */
+
+.horizontally-spaced {
+	text-align: center;
+}
+
+.image {
+	padding: 20px;
+}
+
+.horizontally-spaced > * {
+	display: inline-block;
+	vertical-align: text-top;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.vertically-spaced-container {
+	height: 200px;
+	display: table;
+}
+
+.vertically-spaced {
+	display: table-cell;
+	vertical-align: middle;
+}
+
